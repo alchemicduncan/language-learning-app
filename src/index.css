@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fafbfc;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom smooth transitions */
+.transition-all-300 {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Global Dark Mode Overrides */
+html.dark body {
+  background-color: #090d16;
+  color: #f1f5f9;
+}
+
+html.dark input,
+html.dark select,
+html.dark textarea {
+  background-color: #1e293b;
+  color: #f1f5f9;
+  border-color: #334155;
+}
+
+html.dark option {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+html.dark .bg-white {
+  background-color: #0f172a;
+}
+
+html.dark .border-slate-100 {
+  border-color: #1e293b;
+}
+
+html.dark .text-slate-800 {
+  color: #f1f5f9;
+}
+
+html.dark .text-slate-600 {
+  color: #cbd5e1;
+}
+
+html.dark .text-slate-500 {
+  color: #94a3b8;
+}
+
+html.dark .bg-slate-50 {
+  background-color: #111827;
+}
+
+html.dark .bg-slate-100 {
+  background-color: #1f2937;
+}
+
+html.dark .border-slate-200\/50,
+html.dark .border-slate-200\/60,
+html.dark .border-slate-200\/80 {
+  border-color: #374151;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "AI Adaptive Multi-Language Tutor",
+  "description": "An adaptive language learning platform supporting Persian, Middle Egyptian Hieroglyphs, Spanish, French, German, Arabic, and Japanese, powered by an AI orchestrator and dynamic rendering engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
